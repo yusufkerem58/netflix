@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("1200px-Selimiye_camii.jfif");
+    background-size: cover;
+}
+.box .deger{
+    color:black;
+    background-color: aliceblue;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("c38e5bec01bc04b7741c75f022cdb16b.jpg");
+    background-size: cover;
+}
+.box .button .artı{
+    margin: 20px;
+    width: 50px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+} 
+
+.box .button .artı a{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    
+}
+.box .button .eksi{
+    margin:20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+} 
+
+.box .button .eksi a{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

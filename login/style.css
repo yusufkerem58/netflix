@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+.layer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+.layer > img{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 120vh;
+	object-fit: cover;
+	z-index: 0;
+}
+.layer .filtre{
+	position: absolute;
+	width: 100%;
+	height: 120vh;
+	object-fit: cover;
+	top: 0;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 1;
+}
+.layer .logo img{
+	width: 220px;
+	top: 10px;
+	left: -800px;
+	position: relative;
+	z-index: 4;
+}
+.baslık 
+
+.layer .cart{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	top: 130px;
+	width: 350px;
+	height: 500px;	
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, .);
+	padding: 50px;
+	margin: auto;
+}
+.layer .cart .baslık h1{
+	color: white;
+	font-family: "montserrat",sans-serif;
+}
+.layer .cart .e-posta form input,
+.layer .cart .parola form input{
+	background-color: #2d2d2d;
+	width: 300px;
+	height: 45px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 4px;
+	color: white;
+}
+.layer .cart .e-posta,
+.layer .cart .parola{
+	padding-top: 10px;
+}
+
+.layer .cart .button{
+	padding-top: 40px;
+}
+.layer .cart .button button{
+	width: 310px;
+	height: 45px;
+	border: 1px;
+	border-style: solid;
+	border-color: 333333;
+	border-radius: 4px;
+	color: white;
+	background-color: red;
+	font-size: 17px;
+	font-weight: 500;
+	
+}
+.layer .cart .beni label{
+	color: #d2d2d2d2;
+	font-size: 12px;
+	font-weight: 600;
+	font-family:"montserrat",sans-serif;
+	
+}
+.layer .cart .beni{
+	padding-top: 20px;
+}
+.layer .cart .metin{
+	padding-top: 30px;
+}
+.layer .cart .metin span{
+	color: #d2d2d2d2;
+	font-family:"montserrat",sans-serif;
+}
+.layer .cart .metin span a{
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+	font-weight: 700;
+}
+.layer .cart .metin span a:hover{
+	text-decoration: underline;
+}
+.layer .cart .metin p{
+	color: #d2d2d2d2;
+	font-family:"montserrat",sans-serif;
+	font-size: 13.5px;
+	font-weight: 400;	
+}
+.layer .cart .metin p span{
+	color: blue;
+	font-family:"montserrat",sans-serif;
+	font-size: 14px;
+	font-weight: 400;	
+}
